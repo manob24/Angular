@@ -5,6 +5,7 @@
 
 $lt-gray: #ddd;
 $background-dark: #512da8;
+$background-moredark: #4527A0;
 $background-light: #9575cd;
 $background-pale: #d1c4e9;
 $primary-color-dark: #512da8;
@@ -33,16 +34,23 @@ body {
   margin: 20px;
   display: flex;
 }
+
 .background-primary {
   background-color: $background-dark !important;
 }
+
 .background-accent {
   background-color: $accent-color !important;
 }
+
 .text-floral-white {
   color: floralwhite !important;
 }
 
 .flex-spacer {
   flex: 1 1 auto;
+}
+
+.active {
+  background: $background-moredark;
 }
